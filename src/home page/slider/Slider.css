@@ -1,0 +1,47 @@
+#Slider_div{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 4% 80% 4%;
+    margin-left: 10% ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+
+
+}
+
+
+#slider_img{
+    width: 100%;
+    height: 520px;
+    margin: 10px 0px 0px 0px ;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.prev_btn{
+    border: none;
+    background-color: white;
+    padding: 0;
+    text-align: center;
+}
+
+.next_btn{
+    border: none;
+    background-color: white;
+    padding: 0;
+    text-align: center;
+}
+.button_mid{
+    border-radius: 100px;
+    /* background-color:rgb(230, 230, 230) ; */
+    padding:  8px 21px 8px 24px;
+    font-size: 40px;
+}
+
+.button_mid:hover{
+    background-color: rgb(168, 168, 168) ;
+    color: white;
+}
+

@@ -1,0 +1,43 @@
+.no_margin_padding{
+    margin: 0%;
+    padding: 0px;
+}
+
+#center{
+    /* text-align: center; */
+    width: 80%;
+    margin: 0% 0% 0% 10%;
+}
+.Heading{
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+    background-color: aquamarine;
+}
+
+.newitem_main_div_grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% ;
+    grid-column-gap: 6%;
+    padding: none;
+}
+.new_item_div{
+ grid-template-rows: 50% 25% 25%;
+}
+#newitem_img{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.img_size_newitem{
+    width: 100%;
+}
+#newitem_heading{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+
+}
+#newitem_price{
+margin: 0px;
+padding: 0px;
+}
